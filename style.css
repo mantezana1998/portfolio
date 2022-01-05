@@ -2,10 +2,50 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: black;
 }
 
 .title {
-    margin: 30px;
+    text-align: center;
+}
+
+.about {
+    background-color: #79ADDC;
+    border: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.skills {
+    background-color: #FFC09F;
+    border: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.projects {
+    background-color: #79ADDC;
+    border: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.certificates {
+    background-color: #FFC09F;
+    border: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.interest {
+    background-color: #79ADDC;
+    border: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact {
+    background-color: #FFC09F;
     border: 20px;
     padding: 20px;
     text-align: center;
