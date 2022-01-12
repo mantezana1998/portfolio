@@ -20,11 +20,29 @@
   text-align: center;
 }
 
-.about {
-  background-color: #79ADDC;
-  border: 20px;
-  padding: 20px;
-  text-align: center;
+#headshot {
+  height: 90%;
+  width: 90%;
+}
+
+.title-column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.title-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#column1{
+  background-color: red;
+}
+
+#column2 {
+  background-color: green;
 }
 
 .skills {
