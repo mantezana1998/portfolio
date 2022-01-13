@@ -18,17 +18,20 @@
 
 .title {
   text-align: center;
+  height: 100%;
+  width: 100%;
+  position: relative;
 }
 
 #headshot {
-  height: 90%;
-  width: 90%;
+  height: 100%;
+  width: 100%;
 }
 
 .title-column {
-  float: left;
+  float: right;
   width: 50%;
-  padding: 10px;
+  height: 100%
 }
 
 .title-row:after {
@@ -38,11 +41,30 @@
 }
 
 #column1{
-  background-color: red;
+  height: auto;
 }
 
-#column2 {
-  background-color: green;
+.name {
+  font-weight: bold;
+}
+
+#textbox1 {
+  /* margin: 10px; */
+  padding: 20px;
+  text-align: left;
+}
+
+#position {
+  color: blue;
+}
+
+.button {
+  display: block;
+  border-radius: 12px;
+  font-size: 20px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
 }
 
 .skills {
