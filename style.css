@@ -10,7 +10,7 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: purple;
+  background-color: #47bcd4;
   position: -webkit-sticky; 
   position: sticky;
   top: 0;
@@ -67,7 +67,7 @@
 }
 
 .projects {
-  background-color: #79ADDC;
+  background-color: #47bcd4;
   border: 20px;
   padding: 20px;
   text-align: center;
@@ -131,42 +131,24 @@
   margin: 0 0 40px;
 }
 
-.column {
-  float: left;
-  width: 25%;
-  padding: 0 30px;
-}
-
-@media screen and (max-width: 600px) {
-  .column {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-  }
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.card {
-  box-shadow: 0 4px 8px 0;
-  padding: 10px;
-  text-align: center;
-  background-color: #FCF5C7 !important;
-}
-
 .skills {
-  background-color: #FFC09F;
   border: 20px;
   padding: 40px;
   text-align: center;
 }
 
+ul {
+  -moz-column-count: 4;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 4;
+  -webkit-column-gap: 20px;
+  column-count: 4;
+  column-gap: 20px;
+  list-style-type: decimal;
+}
+
 .certificates {
-  background-color: #FFC09F;
+  background-color: #47bcd4;
   border: 20px;
   padding: 40px;
   text-align: center;
@@ -176,15 +158,8 @@ ul.certificates-list{
   list-style-type: circle;
 }
 
-.interest {
-  background-color: #79ADDC;
-  border: 20px;
-  padding: 20px;
-  text-align: center;
-}
-
 .contact {
-  background-color: #FFC09F;
+  background-color: white;
   border: 20px;
   padding: 20px;
   text-align: center;
@@ -221,4 +196,7 @@ ul.certificates-list{
 .fa-download {
   background: salmon;
   color: black;
+}
+
+@media screen and (max-width: 1800px) {
 }
